@@ -1,0 +1,97 @@
+-- Anuncios
+INSERT INTO anuncios (titulo, descripcion, precio, email, telefono, tipo, user_id, created_at, updated_at) VALUES
+('iPhone 14 Pro Max', 'Vendo iPhone 14 Pro Max en perfecto estado, solo 3 meses de uso. Color negro espacial, 256GB. Incluye cargador y caja original.', 999.99, 'juan@mail.com', '666111222', 'venta', 1, NOW(), NOW()),
+('Busco profesor de matemáticas', 'Necesito profesor particular para matemáticas nivel bachillerato. 2 horas semanales.', 15.00, 'maria@mail.com', '666333444', 'compra', 2, NOW(), NOW()),
+('Bicicleta montaña Trek', 'Vendo bicicleta Trek Marlin 7 2023. Talla M. Poco uso, como nueva.', 650.00, 'pedro@mail.com', '666555666', 'venta', 3, NOW(), NOW()),
+('PS5 nueva sin estrenar', 'PlayStation 5 nueva, versión con lector, precintada. Incluye un mando adicional.', 549.99, 'ana@mail.com', '666777888', 'venta', 4, NOW(), NOW()),
+('Clases de inglés online', 'Profesora nativa imparte clases de inglés todos los niveles. Preparación exámenes oficiales.', null, 'maria@mail.com', '666333444', null, 2, NOW(), NOW()),
+('Compro cómics Marvel', 'Interesado en comprar cómics de Marvel en buen estado. Pago bien.', null, 'pedro@mail.com', '666555666', 'compra', 3, NOW(), NOW()),
+('MacBook Pro M2', 'Vendo MacBook Pro M2 2023, 16GB RAM, 512GB SSD. Apenas 2 meses de uso.', 1499.99, 'juan@mail.com', '666111222', 'venta', 1, NOW(), NOW()),
+('Se busca guitarrista', 'Banda de rock busca guitarrista para proyecto serio. Influencias: Led Zeppelin, Pink Floyd.', null, 'ana@mail.com', '666777888', null, 4, NOW(), NOW()),
+('Nintendo Switch OLED', 'Vendo Nintendo Switch modelo OLED blanca. Incluye 3 juegos y funda.', 299.99, 'pedro@mail.com', '666555666', 'venta', 3, NOW(), NOW()),
+('Alquilo plaza de garaje', 'Plaza de garaje en el centro. Fácil acceso, vigilancia 24h.', 80.00, 'maria@mail.com', '666333444', 'venta', 2, NOW(), NOW()),
+('Monitor Gaming 144Hz', 'Monitor gaming ASUS 27 pulgadas, 144Hz, 1ms, FreeSync. Como nuevo, en garantía.', 249.99, 'juan@mail.com', '666111222', 'venta', 1, NOW(), NOW()),
+('Busco piso compartido', 'Estudiante busca habitación en piso compartido cerca de la universidad. Máximo 350€/mes.', 350.00, 'maria@mail.com', '666333444', 'compra', 2, NOW(), NOW()),
+('Clases de guitarra', 'Profesor con 15 años de experiencia. Todos los niveles y estilos. Primera clase gratis.', 20.00, 'pedro@mail.com', '666555666', null, 3, NOW(), NOW()),
+('Colección Manga Naruto', 'Vendo colección completa de Naruto, 72 tomos. Perfecto estado.', 280.00, 'ana@mail.com', '666777888', 'venta', 4, NOW(), NOW()),
+('Cámara Canon EOS R6', 'Vendo cámara mirrorless Canon EOS R6. Incluye objetivo 24-105mm.', 1899.99, 'juan@mail.com', '666111222', 'venta', 1, NOW(), NOW()),
+('Busco entrenador personal', 'Busco entrenador personal para preparación maratón. 3 sesiones semanales.', null, 'maria@mail.com', '666333444', 'compra', 2, NOW(), NOW()),
+('iPad Pro 2023', 'iPad Pro 12.9 M2, 256GB, WiFi+Cellular. Incluye Apple Pencil 2.', 1099.99, 'pedro@mail.com', '666555666', 'venta', 3, NOW(), NOW()),
+('Servicio de jardinería', 'Jardinero profesional ofrece servicios de mantenimiento y diseño de jardines.', null, 'ana@mail.com', '666777888', null, 4, NOW(), NOW()),
+('Volkswagen Golf GTI', 'Golf GTI 2020, 45.000km, libro mantenimiento. Perfecto estado.', 28500.00, 'juan@mail.com', '666111222', 'venta', 1, NOW(), NOW()),
+('Busco profesor programación', 'Necesito clases particulares de Python y JavaScript. Nivel principiante.', 20.00, 'maria@mail.com', '666333444', 'compra', 2, NOW(), NOW()),
+('Roomba i7+', 'Robot aspirador con base autovaciable. 6 meses de uso, como nuevo.', 499.99, 'ana@mail.com', '666777888', 'venta', 4, NOW(), NOW()),
+('Saxofón Alto Yamaha', 'Saxofón profesional YAS-480, con estuche y accesorios.', 1200.00, 'pedro@mail.com', '666555666', 'venta', 3, NOW(), NOW()),
+('Busco profesor AutoCAD', 'Necesito clases particulares de AutoCAD y Revit. Urgente.', 25.00, 'maria@mail.com', '666333444', 'compra', 2, NOW(), NOW()),
+('Colección vinilos jazz', 'Más de 100 vinilos de jazz clásico. Excelente estado.', 850.00, 'juan@mail.com', '666111222', 'venta', 1, NOW(), NOW()),
+('Patinete eléctrico Xiaomi', 'Modelo Pro 2, apenas usado. Incluye seguro vigente.', 350.00, 'ana@mail.com', '666777888', 'venta', 4, NOW(), NOW()),
+('Traducciones inglés-español', 'Traductora oficial. Documentos, textos técnicos, web.', null, 'maria@mail.com', '666333444', null, 2, NOW(), NOW()),
+('DJI Mini 3 Pro', 'Dron con cámara 4K, dos baterías y control remoto.', 750.00, 'pedro@mail.com', '666555666', 'venta', 3, NOW(), NOW()),
+('Busco violín antiguo', 'Coleccionista busca violín anterior a 1950. Pago bien.', null, 'juan@mail.com', '666111222', 'compra', 1, NOW(), NOW()),
+('Impresora 3D Prusa', 'Prusa i3 MK3S+. Poco uso, calibrada y actualizada.', 650.00, 'ana@mail.com', '666777888', 'venta', 4, NOW(), NOW()),
+('Alquilo estudio fotografía', 'Estudio equipado por horas. Flashes Profoto incluidos.', 30.00, 'pedro@mail.com', '666555666', 'venta', 3, NOW(), NOW()),
+('Mesa ping pong profesional', 'Mesa Butterfly, plegable, con red y accesorios.', 450.00, 'maria@mail.com', '666333444', 'venta', 2, NOW(), NOW()),
+('Busco profesor piano', 'Para niño de 8 años. Preferible a domicilio.', 25.00, 'juan@mail.com', '666111222', 'compra', 1, NOW(), NOW()),
+('iMac 27" 2023', 'iMac último modelo, 16GB RAM, 1TB. En garantía.', 1899.99, 'ana@mail.com', '666777888', 'venta', 4, NOW(), NOW()),
+('Curso fotografía grupal', 'Curso intensivo fin de semana. Teoría y práctica.', 150.00, 'pedro@mail.com', '666555666', null, 3, NOW(), NOW()),
+('Bicicleta eléctrica Orbea', 'Modelo Rise M20, como nueva. 500km de uso.', 3500.00, 'maria@mail.com', '666333444', 'venta', 2, NOW(), NOW());
+
+-- Comentarios
+INSERT INTO comentarios (contenido, anuncio_id, user_id, created_at, updated_at) VALUES
+('¿Aceptas intercambios por un iPhone 13 Pro + diferencia?', 1, 2, NOW(), NOW()),
+('¿Qué horarios tienes disponibles para las clases?', 2, 3, NOW(), NOW()),
+('¿La bicicleta tiene garantía todavía?', 3, 1, NOW(), NOW()),
+('¿Harías envío a Barcelona?', 4, 2, NOW(), NOW()),
+('¿Das clases los fines de semana?', 5, 4, NOW(), NOW()),
+('Tengo varios números de Spiderman de los años 90', 6, 1, NOW(), NOW()),
+('¿Tiene AppleCare+?', 7, 3, NOW(), NOW()),
+('¿Ensayáis en local propio?', 8, 2, NOW(), NOW()),
+('¿Los juegos son físicos o digitales?', 9, 4, NOW(), NOW()),
+('¿Es una plaza grande? ¿Cabe un SUV?', 10, 1, NOW(), NOW()),
+('Me interesa, ¿podemos quedar para verlo?', 1, 3, NOW(), NOW()),
+('¿Tienes experiencia con alumnos de bachillerato?', 2, 4, NOW(), NOW()),
+('¿Cuál es el último precio?', 3, 2, NOW(), NOW()),
+('¿Aceptas PayPal como método de pago?', 4, 1, NOW(), NOW()),
+('¿Qué nivel de inglés tienes certificado?', 5, 3, NOW(), NOW()),
+('¿Tiene HDR el monitor?', 11, 3, NOW(), NOW()),
+('¿La zona tiene buena conexión de metro?', 12, 1, NOW(), NOW()),
+('¿Das clases online también?', 13, 4, NOW(), NOW()),
+('¿Venderías tomos sueltos?', 14, 2, NOW(), NOW()),
+('¿Cuántos disparos tiene?', 15, 3, NOW(), NOW()),
+('¿Qué experiencia tienes con maratonianos?', 16, 1, NOW(), NOW()),
+('¿Incluye funda original?', 17, 4, NOW(), NOW()),
+('¿Haces presupuesto sin compromiso?', 18, 2, NOW(), NOW()),
+('¿Tiene garantía oficial VW todavía?', 19, 3, NOW(), NOW()),
+('¿Horarios flexibles para las clases?', 20, 1, NOW(), NOW()),
+('¿Sigues teniendo el monitor?', 11, 2, NOW(), NOW()),
+('¿Podría ver el piso este fin de semana?', 12, 4, NOW(), NOW()),
+('Precio por mes de clases?', 13, 1, NOW(), NOW()),
+('¿Los tomos están precintados?', 14, 3, NOW(), NOW()),
+('¿Aceptas cambio por Sony A7III?', 15, 4, NOW(), NOW()),
+('¿Compatible con Alexa?', 21, 1, NOW(), NOW()),
+('¿Tiene todas las zapatillas originales?', 22, 2, NOW(), NOW()),
+('¿Das clases online?', 23, 3, NOW(), NOW()),
+('¿Tienes lista de los vinilos?', 24, 4, NOW(), NOW()),
+('¿Kilómetros totales?', 25, 1, NOW(), NOW()),
+('¿Precio por palabra?', 26, 2, NOW(), NOW()),
+('¿Tiene seguro contra pérdidas?', 27, 3, NOW(), NOW()),
+('Tengo uno de 1940, ¿interesado?', 28, 4, NOW(), NOW()),
+('¿Qué filamentos has usado?', 29, 1, NOW(), NOW()),
+('¿Disponible en fin de semana?', 30, 2, NOW(), NOW()),
+('¿Es para exterior?', 31, 3, NOW(), NOW()),
+('¿Experiencia con niños?', 32, 4, NOW(), NOW()),
+('¿Tiene AppleCare+?', 33, 1, NOW(), NOW()),
+('¿Incluye equipo fotográfico?', 34, 2, NOW(), NOW()),
+('¿Autonomía real?', 35, 3, NOW(), NOW());
+
+-- Actualizar anuncios uno por uno
+UPDATE anuncios SET created_at = DATE_SUB(NOW(), INTERVAL FLOOR(1 + RAND() * 30) DAY);
+UPDATE anuncios SET created_at = DATE_ADD(created_at, INTERVAL FLOOR(RAND() * 24) HOUR);
+UPDATE anuncios SET created_at = DATE_ADD(created_at, INTERVAL FLOOR(RAND() * 60) MINUTE);
+UPDATE anuncios SET updated_at = DATE_ADD(created_at, INTERVAL FLOOR(RAND() * 60) MINUTE);
+
+-- Actualizar comentarios uno por uno
+UPDATE comentarios SET created_at = DATE_SUB(NOW(), INTERVAL FLOOR(1 + RAND() * 15) DAY);
+UPDATE comentarios SET created_at = DATE_ADD(created_at, INTERVAL FLOOR(RAND() * 24) HOUR);
+UPDATE comentarios SET created_at = DATE_ADD(created_at, INTERVAL FLOOR(RAND() * 60) MINUTE);
+UPDATE comentarios SET updated_at = DATE_ADD(created_at, INTERVAL FLOOR(RAND() * 60) MINUTE);
